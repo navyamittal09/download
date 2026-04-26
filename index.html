@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Download Hub</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #121212;
+            color: white;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .file {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #1f1f1f;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+        }
+
+        .file span {
+            font-size: 18px;
+        }
+
+        .file a {
+            text-decoration: none;
+        }
+
+        .file button {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 6px;
+            background: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        .file button:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>📂 My Files</h1>
+
+    <div class="container">
+
+        <!-- TLauncher (external link) -->
+        <div class="file">
+            <span>Tlauncher</span>
+            <a href="https://www.dropbox.com/scl/fi/5mclf5lom178n4y0znfde/TLauncher-Installer-1.9.5.1.exe?rlkey=olywg3qjxdph0yxl7ktbi5gnp&st=3jbhnywl&dl=1" target="_blank">
+                <button>Download</button>
+            </a>
+        </div>
+
+        <!-- PvP Map (local file) -->
+        <div class="file">
+            <span>PvP Practice Map</span>
+            <a href="files/PvP Practice And Fighting world.mcworld.zip" download>
+                <button>Download</button>
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>
